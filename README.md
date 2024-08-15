@@ -5,9 +5,7 @@ This project is a responsive website for "The Prodigies - International School,"
 
 ## Demo
 
-You can see the project in action here: [Live Demo](#) *(Replace with actual link)*
-
-![Screenshot](https://drive.google.com/file/d/1drzGOYUKzuZN7jjTvIXCjB0vAoA8ZM3_/view?usp=sharing) 
+You can see the project in action here: [Live Demo](#) (https://drive.google.com/file/d/1drzGOYUKzuZN7jjTvIXCjB0vAoA8ZM3_/view?usp=sharing) 
 
 ## Features
 
@@ -80,4 +78,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [ankitavishwakarmawork2023@.gmail.com](mailto:ankitavishwakarmawork2023@.gmail.com)
 
-Project Link: [https://github.com/your-username/repository-name](https://github.com/your-username/repository-name)
+Project Link: [(https://ankitav456.github.io/ideaMagixMachineTest/)]((https://ankitav456.github.io/ideaMagixMachineTest/))
