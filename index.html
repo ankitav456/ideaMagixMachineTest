@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Prodigies - International School</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="left-icons">
+        <button class="contact-btn" onclick="toggleMenu()">
+          <img src="icons/hamburger.svg" alt="Menu" />
+        </button>
+        <button class="contact-btn">
+          <img src="icons/mail.svg" alt="Email" />
+        </button>
+      </div>
+      <div class="logo">
+        <img src="img/logo.png" alt="The Prodigies International School Logo" />
+      </div>
+      <div class="right-icons">
+        <button class="contact-btn">
+          <img src="icons/search.svg" alt="Search" />
+        </button>
+        <button class="contact-btn">
+          <img src="icons/share.svg" alt="Share" />
+        </button>
+      </div>
+    </header>
+
+    <!-- Side Menu -->
+    <div id="sideMenu" class="side-menu">
+      <a href="#" class="close-button" onclick="toggleMenu()">× Close</a>
+      <ul>
+        <li><img src="icons/plus.svg" alt="Plus Icon" /> Weddings</li>
+        <li><img src="icons/plus.svg" alt="Plus Icon" /> Corporate Events</li>
+        <li><img src="icons/plus.svg" alt="Plus Icon" /> Activities</li>
+        <li><img src="icons/plus.svg" alt="Plus Icon" /> Accommodations</li>
+        <li><img src="icons/plus.svg" alt="Plus Icon" /> Occasions</li>
+      </ul>
+    </div>
+
+    <!-- Overlay for Side Menu -->
+    <div id="overlay" class="overlay" onclick="toggleMenu()">
+      <img src="img/background.jpg" alt="Background" class="overlay-image" />
+    </div>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Carousel Section -->
+      <section class="carousel-section">
+        <div class="carousel">
+          <div class="carousel-inner">
+            <img src="img/banner-img.jpg" alt="Slide 1" />
+            <video src="banner-video.mp4" autoplay loop></video>
+          </div>
+          <button class="carousel-control prev">❮</button>
+          <button class="carousel-control next">❯</button>
+          <div class="sticky-sidebar">
+            <a href="#" class="sidebar-button callback-button">Request a Callback</a>
+            <a href="#" class="sidebar-button enroll-button">Enroll Now</a>
+          </div>
+        </div>
+        <div class="announcement">
+          <span>ANNOUNCEMENTS</span>
+          <img src="icons/announcement.svg" alt="" />
+          <p>Admissions are open <br />for the academic year 2021-22</p>
+        </div>
+      </section>
+
+      <!-- Insights Section -->
+      <section class="insights-section">
+        <span class="section-label">Insights</span>
+        <h2 class="section-title">
+          SHM Store <strong>Marketplace Insights</strong>
+        </h2>
+        <p class="section-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+        </p>
+        <div class="insights-carousel">
+          <img src="img/Insights.jpg" alt="Insight 1" class="active" id="insight-carousal-img" />
+          <img src="img/background.jpg" alt="Insight 2" id="insight-carousal-img" />
+          <img src="img/banner-img.jpg" alt="Insight 3" id="insight-carousal-img" />
+          <div class="insights-bottom">
+            <div class="insight-arrow">
+              <p id="insight-indicator">1 of 3</p>
+              <div class="insight-arrow-img">
+                <img src="icons/left-arrow.svg" alt="Left Arrow" id="left-arrow" />
+                <img src="icons/right-arrow.svg" alt="Right Arrow" id="right-arrow" />
+              </div>
+            </div>
+            <div class="insights-text">
+              <p>We track your vessels to deliver at earliest port of call</p>
+            </div>
+            <button>Visit the Page</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Network Section -->
+      <section class="network-section">
+        <span class="section-label">Network</span>
+        <h2 class="section-title">SHM Network <strong>Capability</strong></h2>
+        <p class="section-description">
+          Our extensive network of delivery centres across multiple locations ensures fast and effective service.
+        </p>
+        <div class="map-container">
+          <img src="img/network.png" alt="Network Map" class="network-map" />
+          <div class="map-tooltip">
+            <p>SHM Shipcare</p>
+            <address>
+              House, Stratford Drive, Loxethroad,<br />
+              Surrey KT2 7JB, Denmark
+            </address>
+            <a href="#" class="view-map">View Map</a>
+          </div>
+          <div class="dot dot1"></div>
+          <div class="dot dot2"></div>
+          <div class="dot dot3"></div>
+          <div class="dot dot4"></div>
+          <div class="dot dot5"></div>
+          <div class="dot dot6"></div>
+          <div class="dot dot7"></div>
+          <div class="dot dot8"></div>
+          <div class="dot dot9"></div>
+          <div class="dot dot10"></div>
+          <div class="dot dot11"></div>
+          <div class="dot dot12"></div>
+        </div>
+        <div class="map-orange-container">
+          <p>Get your Products Delivered In</p>
+          <h3>your preferred city or the next port of call</h3>
+          <button>Contact us <img src="icons/whatsapp.png" alt="" /></button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-section footer-left">
+          <img src="img/logo.svg" alt="SHM Store Logo" />
+          <img src="img/line-footer.png" alt="SHM Store Logo" class="footer-line" />
+          <p>
+            We give you complete control of your shipments. Delivered on time with no hassle.
+          </p>
+          <div class="social-icons">
+            <a href="#"><img src="icons/facebook.svg" alt="Facebook" /></a>
+            <a href="#"><img src="icons/twitter.svg" alt="Twitter" /></a>
+            <a href="#"><img src="icons/linked-in.svg" alt="LinkedIn" /></a>
+            <a href="#"><img src="icons/youtube.svg" alt="YouTube" /></a>
+          </div>
+        </div>
+        <div class="footer-sub-content">
+          <div class="footer-section footer-center">
+            <h3>Useful links</h3>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">SHM Store</a></li>
+              <li><a href="#">Register</a></li>
+            </ul>
+          </div>
+          <div class="footer-section footer-right">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">SHM Group</a></li>
+              <li><a href="#">SHM Fire Safety</a></li>
+              <li><a href="#">SHM Shipcare</a></li>
+              <li><a href="#">SHM Products</a></li>
+            </ul>
+          </div>
+          <div class="footer-section footer-contact">
+            <h3>Contact Us</h3>
+            <p>
+              <i class="fa fa-phone"></i> +91-222-378-6400<br />
+              <i class="fa fa-envelope"></i> info@theshmstore.com<br />
+              <i class="fa fa-map-marker"></i> Head office BPT, Plot no. 518, Magazine Street, Darukhana, Mazagon, Mumbai, 400010
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-left">
+          <h2>Have Questions?</h2>
+          <p>Ask Our 24/7 customer support executive</p>
+          <h4 class="footer-call-us"> Call Us: +91 1800-3002-7286</h4>
+          <p>
+            © 2024 SHM Shipcare. All Rights Reserved. ISO 9001:2008 Certified. Designed by Ankita Vishwakarma
+          </p>
+        </div>
+        <div class="footer-bottom-right">
+          <p>Subscribe to our newsletter</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter Email" />
+            <button type="submit">Subscribe</button>
+          </form>
+          <div class="footer-right-links">
+            <p>Privacy</p>
+            <p>Terms & Conditions</p>
+            <p>Site Map</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-orange"></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
