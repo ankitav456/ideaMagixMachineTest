@@ -22,43 +22,13 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/repository-name.git
+ [  git clone https://github.com/your-username/repository-name.git](https://github.com/ankitav456/ideaMagixMachineTest.git)
    ```
 
-2. **Navigate to the project directory:**
-   ```bash
-   cd repository-name
-   ```
-
-3. **Open the `index.html` file in your browser:**
+2. **Open the `index.html` file in your browser:**
    Simply double-click the `index.html` file or use a local server to view the project.
 
-## Usage
 
-1. **Navigate the Website:**
-   - Use the hamburger menu in the header to access different sections.
-   - The carousel in the main section can be navigated using the left and right arrows.
-   - Click on dots in the network section to see the associated tooltips with more information.
-
-2. **Customize the Carousel:**
-   - The carousel currently supports two items (an image and a video). You can add more by extending the `carousel-inner` div in the HTML.
-
-3. **Modify the Insights Section:**
-   - Update the images and content of the insights section by changing the image sources and text within the `.insights-carousel` section.
-
-4. **Edit the Network Map:**
-   - The network map uses dots positioned with CSS. You can add or reposition dots by adjusting the `top` and `left` properties of the respective `.dot` classes in the CSS.
-
-## Customization
-
-- **Change Colors and Styles:** 
-  Customize the website's appearance by editing the CSS in `style.css`. Modify colors, fonts, sizes, and more to match your branding.
-
-- **Add More Sections:** 
-  Expand the website by adding more HTML sections or components as needed. Update the CSS accordingly to maintain a responsive layout.
-
-- **JavaScript Enhancements:** 
-  The JavaScript code can be expanded to include more interactive features, like advanced animations or additional UI components.
 
 ## Contributing
 
